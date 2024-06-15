@@ -1,0 +1,14 @@
+proxies:
+- name: RioVIP-ID3
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: a5edd327-4c20-474b-8b40-3693ed2a4a55
+  skip-cert-verify: true
+  sni: id-warna.rmatvpn.my.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-warna.rmatvpn.my.id
+  udp: true
