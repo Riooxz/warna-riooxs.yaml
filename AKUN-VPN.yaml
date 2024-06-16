@@ -1,14 +1,14 @@
 proxies:
 - name: RioVIP-ID3
-  server: id-warna.rmatvpn.my.id
+  server: 172.67.5.14
   port: 443
   type: trojan
   password: 0db49d4c-015c-4216-a9de-47a286a4a631
   skip-cert-verify: true
-  sni: cf.media.fcgk35-1.fna.whatsapp.net.id-warna.rmatvpn.my.id
+  sni: id-warna.rmatvpn.my.id
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: cf.media.fcgk35-1.fna.whatsapp.net.id-warna.rmatvpn.my.id
+      Host: id-warna.rmatvpn.my.id
   udp: true
