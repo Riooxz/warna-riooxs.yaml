@@ -25,3 +25,19 @@ proxies:
     headers:
       Host: id-ikd2.rmatvpn.my.id
   udp: true
+- name: SG
+  server: 172.67.5.14
+  port: 443
+  type: vmess
+  uuid: 0b38ecdf-fb90-4502-b54d-2f45b09bfd27
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: sg-herza.jabarvpn.shop
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg-herza.jabarvpn.shop
+  udp: true
