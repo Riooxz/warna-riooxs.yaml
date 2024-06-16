@@ -12,3 +12,16 @@ proxies:
     headers:
       Host: id-warna.rmatvpn.my.id
   udp: true
+- name: riooxs
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 4fc3f50c-073a-4031-b9b2-1584e9ae0088
+  skip-cert-verify: true
+  sni: id-ikd2.rmatvpn.my.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-ikd2.rmatvpn.my.id
+  udp: true
