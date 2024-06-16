@@ -3,7 +3,7 @@ proxies:
   server: 172.67.5.14
   port: 443
   type: trojan
-  password: 0db49d4c-015c-4216-a9de-47a286a4a631
+  password: a5edd327-4c20-474b-8b40-3693ed2a4a55
   skip-cert-verify: true
   sni: id-warna.rmatvpn.my.id
   network: ws
