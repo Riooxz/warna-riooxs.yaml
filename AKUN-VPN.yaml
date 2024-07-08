@@ -1,14 +1,14 @@
 proxies:
 - name: warna
-  server: id-warna.rmatvpn.my.id
+  server: 172.67.5.14
   port: 443
   type: trojan
-  password: a5edd327-4c20-474b-8b40-3693ed2a4a55
+  password: 8b99a005-da75-4302-b5ac-600c76f2cafe
   skip-cert-verify: true
-  sni: cf.media.fcgk35-1.fna.whatsapp.net.id-warna.rmatvpn.my.id
+  sni: id-warna.rmatvpn.my.id
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: cf.media.fcgk35-1.fna.whatsapp.net.id-warna.rmatvpn.my.id
+      Host: id-warna.rmatvpn.my.id
   udp: true
